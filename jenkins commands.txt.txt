@@ -1,0 +1,3 @@
+rmdir /S /Q "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\carrentalapp"
+mkdir "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\carrentalapp"
+xcopy /E /I /Y dist\* "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\carrentalapp"
